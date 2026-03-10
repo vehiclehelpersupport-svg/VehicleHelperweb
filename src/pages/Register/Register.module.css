@@ -1,0 +1,50 @@
+.regCard {
+  max-width: 520px !important;
+}
+
+.passRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.agreed {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.checkLabel {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.checkbox {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--primary);
+  cursor: pointer;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.checkLink {
+  color: var(--primary);
+  font-weight: 600;
+  transition: opacity var(--transition);
+}
+
+.checkLink:hover {
+  opacity: 0.75;
+}
+
+@media (max-width: 480px) {
+  .passRow {
+    grid-template-columns: 1fr;
+  }
+}

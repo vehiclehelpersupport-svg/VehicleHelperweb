@@ -1,0 +1,443 @@
+.hero {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 100px 0 60px;
+}
+
+/* Background */
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero__gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0A0A0A 0%, #111827 55%, #0d2020 100%);
+}
+
+.hero__pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(51, 204, 204, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(41, 163, 163, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 60% 80%, rgba(51, 204, 204, 0.04) 0%, transparent 35%);
+}
+
+/* Inner */
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  width: 100%;
+}
+
+/* Content */
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.hero__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(51, 204, 204, 0.12);
+  border: 1px solid rgba(51, 204, 204, 0.25);
+  color: var(--primary);
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.hero__badgeDot {
+  width: 7px;
+  height: 7px;
+  background: var(--primary);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+
+.hero__title {
+  font-size: clamp(2.4rem, 5vw, 3.5rem);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.hero__titleAccent {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero__subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.8;
+  max-width: 520px;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Override outline button for dark bg */
+.hero__actions :global(.btn--outline) {
+  color: rgba(255, 255, 255, 0.85) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.hero__actions :global(.btn--outline):hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: var(--white) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Stats */
+.hero__stats {
+  display: flex;
+  gap: 2rem;
+  padding-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.hero__stat {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.hero__statIcon {
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+
+.hero__statValue {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1;
+}
+
+.hero__statLabel {
+  display: block;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 2px;
+}
+
+/* Visual / Card */
+.hero__visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-xl);
+  width: 100%;
+  max-width: 420px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(51, 204, 204, 0.1);
+}
+
+.hero__cardHeader {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero__cardStatus {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.hero__cardDot {
+  width: 8px;
+  height: 8px;
+  background: var(--primary);
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+.hero__cardMap {
+  height: 200px;
+  background: linear-gradient(135deg, #0d1f1f, #0a1515);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__mapGrid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(51, 204, 204, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(51, 204, 204, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.hero__mapPin {
+  position: absolute;
+  bottom: 40px;
+  left: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.hero__mapPin svg {
+  color: var(--error);
+  font-size: 1.4rem;
+  filter: drop-shadow(0 2px 8px rgba(239, 68, 68, 0.6));
+}
+
+.hero__mapPin span {
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.hero__mapHelper {
+  position: absolute;
+  top: 40px;
+  right: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.hero__mapHelperIcon {
+  font-size: 1.5rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.hero__mapHelper span {
+  font-size: 0.62rem;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.hero__mapEta {
+  color: var(--primary) !important;
+  font-weight: 600 !important;
+}
+
+.hero__mapRoute {
+  position: absolute;
+  bottom: 60px;
+  left: 38%;
+  width: 30%;
+  height: 2px;
+  background: var(--gradient-primary);
+  border-radius: 1px;
+  opacity: 0.8;
+  transform: rotate(-10deg);
+}
+
+.hero__cardInfo {
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hero__cardHelper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hero__cardAvatar {
+  width: 40px;
+  height: 40px;
+  background: var(--gradient-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--white);
+  flex-shrink: 0;
+}
+
+.hero__cardName {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 2px;
+}
+
+.hero__cardRole {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero__cardBadge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: rgba(95, 37, 159, 0.3);
+  border: 1px solid rgba(95, 37, 159, 0.5);
+  color: #b380ff;
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+/* Floating Cards */
+.hero__floatCard1,
+.hero__floatCard2 {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  box-shadow: var(--shadow-xl);
+  font-size: 0.8rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.hero__floatCard1 {
+  top: -20px;
+  right: -20px;
+  animation-delay: 0s;
+}
+
+.hero__floatCard2 {
+  bottom: -20px;
+  left: -20px;
+  animation-delay: 1.5s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.hero__floatCard1 span:first-child,
+.hero__floatCard2 span:first-child {
+  font-size: 1.4rem;
+}
+
+.hero__floatCard1 p:first-child,
+.hero__floatCard2 p:first-child {
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 0.78rem;
+}
+
+.hero__floatCard1 p:last-child,
+.hero__floatCard2 p:last-child {
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+}
+
+/* Wave */
+.hero__wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  line-height: 0;
+}
+
+.hero__wave svg {
+  width: 100%;
+  height: 80px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .hero__inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .hero__content {
+    align-items: center;
+  }
+
+  .hero__subtitle {
+    margin: 0 auto;
+  }
+
+  .hero__stats {
+    justify-content: center;
+  }
+
+  .hero__visual {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 90px 0 50px;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__floatCard1 {
+    top: -10px;
+    right: -10px;
+  }
+
+  .hero__floatCard2 {
+    bottom: -10px;
+    left: -10px;
+  }
+}

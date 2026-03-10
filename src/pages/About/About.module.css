@@ -1,0 +1,285 @@
+.about__hero {
+  position: relative;
+  padding: 140px 0 80px;
+  overflow: hidden;
+}
+
+.about__heroBg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0A0A0A, #111827, #0d2020);
+}
+
+.about__heroInner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.about__eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  background: rgba(51, 204, 204, 0.12);
+  border: 1px solid rgba(51, 204, 204, 0.25);
+  padding: 0.35rem 1rem;
+  border-radius: var(--radius-full);
+}
+
+.about__eyebrowDark {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.about__title {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.about__titleAccent {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about__subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 580px;
+  line-height: 1.75;
+}
+
+/* Mission */
+.about__mission {
+  padding: 100px 0;
+}
+
+.about__missionGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about__missionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.about__sectionTitle {
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.about__text {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.about__missionStats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.about__statCard {
+  background: var(--light-gray);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  border: 1px solid var(--border);
+  transition: all var(--transition);
+}
+
+.about__statCard:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(51, 204, 204, 0.1);
+}
+
+.about__statValue {
+  font-size: 2.25rem;
+  font-weight: 900;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.about__statLabel {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* Values */
+.about__values {
+  padding: 100px 0;
+  background: var(--light-gray);
+}
+
+.about__valuesHeader {
+  text-align: center;
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.about__valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.about__valueCard {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  border: 1px solid var(--border);
+  transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about__valueCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(51, 204, 204, 0.3);
+}
+
+.about__valueIcon {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, rgba(51, 204, 204, 0.15), rgba(41, 163, 163, 0.1));
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: var(--primary);
+  transition: all var(--transition);
+}
+
+.about__valueCard:hover .about__valueIcon {
+  background: var(--gradient-primary);
+  color: var(--white);
+  box-shadow: var(--shadow-glow);
+}
+
+.about__valueTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.about__valueDesc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+/* Payment */
+.about__payment {
+  padding: 80px 0 100px;
+}
+
+.about__paymentCard {
+  background: linear-gradient(135deg, #f5f0ff, #ede8ff);
+  border: 1px solid rgba(95, 37, 159, 0.15);
+  border-radius: var(--radius-xl);
+  padding: 4rem 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about__paymentIcon {
+  font-size: 3rem;
+}
+
+.about__paymentTitle {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  color: #3d0a6e;
+  letter-spacing: -0.02em;
+}
+
+.about__paymentText {
+  font-size: 1rem;
+  color: #5F259F;
+  opacity: 0.8;
+  max-width: 600px;
+  line-height: 1.8;
+}
+
+.about__paymentFeatures {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #5F259F;
+  padding-top: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about__missionGrid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .about__valuesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about__mission,
+  .about__values,
+  .about__payment {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .about__valuesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .about__paymentCard {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .about__paymentFeatures {
+    gap: 1rem;
+  }
+}

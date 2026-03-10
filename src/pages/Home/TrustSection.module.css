@@ -1,0 +1,137 @@
+.trust {
+  padding: 100px 0;
+  background: var(--light-gray);
+}
+
+.trust__header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.trust__eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.trust__title {
+  font-size: clamp(1.9rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.trust__titleAccent {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.trust__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.trust__card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition);
+  border: 1px solid var(--border);
+}
+
+.trust__card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+.trust__cardIcon {
+  font-size: 2.25rem;
+}
+
+.trust__cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.trust__text {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  flex: 1;
+  font-style: normal;
+}
+
+/* Partners */
+.trust__partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.trust__partnersLabel {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.trust__phonepe {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #5F259F;
+  box-shadow: var(--shadow-md);
+}
+
+.trust__phonepeIcon {
+  font-size: 1.3rem;
+}
+
+.trust__phonepeBadge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgba(95, 37, 159, 0.1);
+  color: #5F259F;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(95, 37, 159, 0.2);
+}
+
+@media (max-width: 900px) {
+  .trust__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .trust__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trust {
+    padding: 70px 0;
+  }
+}
