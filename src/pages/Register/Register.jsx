@@ -84,7 +84,7 @@ const Register = () => {
             <div className={styles.auth__feature}>🆓 Free to register</div>
             <div className={styles.auth__feature}>⚡ Instant service access</div>
             <div className={styles.auth__feature}>🔒 Bank-grade security</div>
-            <div className={styles.auth__feature}>💜 PhonePe payment protection</div>
+            <div className={styles.auth__feature}>💳 Cashfree payment protection</div>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@ const Register = () => {
             <Link to="/login" className={styles.auth__switchLink}>Sign in</Link>
           </p>
 
-          <div className={styles.auth__phonepeBadge}>💜 Secured by PhonePe Payment Gateway</div>
+          <div className={styles.auth__phonepeBadge}>💳 Secured by Cashfree Payment Gateway</div>
         </div>
       </div>
     </div>

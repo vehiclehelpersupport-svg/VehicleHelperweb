@@ -16,7 +16,7 @@ const CTASection = () => {
               Request Vehicle Help Now
             </h2>
             <p className={styles.cta__subtitle}>
-              Available 24/7 across {siteConfig.stats.cities} cities. Secure payments via PhonePe.
+              Available 24/7 across {siteConfig.stats.cities} cities. Secure payments via Cashfree.
               Average response time under {siteConfig.stats.avgResponse}.
             </p>
 
@@ -34,7 +34,7 @@ const CTASection = () => {
             </div>
 
             <div className={styles.cta__trust}>
-              <span>🔒 Secured by PhonePe</span>
+              <span>🔒 Secured by Cashfree</span>
               <span>⭐ 4.9/5 Rating</span>
               <span>✅ Verified Professionals</span>
             </div>

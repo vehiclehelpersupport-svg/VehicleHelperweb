@@ -145,7 +145,7 @@ const RequestService = () => {
             <div className={styles.req__step}>
               <button className={styles.req__back} onClick={() => setStep(1)}>← Back</button>
               <h2 className={styles.req__stepTitle}>Details</h2>
-              <p className={styles.req__stepDesc}>Enter your details and vehicle info. Payment via PhonePe after service.</p>
+              <p className={styles.req__stepDesc}>Enter your details and vehicle info. Payment via Cashfree after service.</p>
               <div className={styles.req__formCard}>
                 <form className={styles.req__form} onSubmit={handleSubmit} noValidate>
                   <div className={styles.req__formRow}>
@@ -193,7 +193,7 @@ const RequestService = () => {
 
                   <div className={styles.req__paymentNotice}>
                     <span>💜</span>
-                    <p>Payment will be collected via <strong>PhonePe</strong> after service completion. No advance payment required.</p>
+                    <p>Payment will be collected via <strong>Cashfree</strong> after service completion. No advance payment required.</p>
                   </div>
 
                   <Button type="submit" variant="primary" size="lg" fullWidth disabled={loading} icon={loading ? null : <FiTruck />}>
@@ -225,7 +225,7 @@ const RequestService = () => {
                 </div>
                 <div className={styles.req__confirmedDetail}>
                   <span>Payment</span>
-                  <strong>After service via PhonePe</strong>
+                  <strong>After service via Cashfree</strong>
                 </div>
               </div>
               <div className={styles.req__confirmedActions}>

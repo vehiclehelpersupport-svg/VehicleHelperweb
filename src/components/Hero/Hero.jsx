@@ -32,7 +32,7 @@ const Hero = () => {
 
           <p className={styles.hero__subtitle}>
             24/7 roadside assistance, towing, emergency repairs, and nearby mechanic help —
-            all at your fingertips. Payments secured via PhonePe.
+            all at your fingertips. Payments secured via Cashfree.
           </p>
 
           <div className={styles.hero__actions}>
@@ -90,7 +90,7 @@ const Hero = () => {
                   <p className={styles.hero__cardRole}>Certified Mechanic ⭐ 4.9</p>
                 </div>
               </div>
-              <div className={styles.hero__cardBadge}>PhonePe Secured</div>
+              <div className={styles.hero__cardBadge}>Cashfree Secured</div>
             </div>
           </div>
 
@@ -106,7 +106,7 @@ const Hero = () => {
             <span>✅</span>
             <div>
               <p>Payment</p>
-              <p>Secured via PhonePe</p>
+              <p>Secured via Cashfree</p>
             </div>
           </div>
         </div>

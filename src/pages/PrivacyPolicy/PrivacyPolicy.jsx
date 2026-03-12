@@ -56,9 +56,9 @@ const PrivacyPolicy = () => {
                 </ul>
                 <h3>Payment Data</h3>
                 <ul>
-                  <li>Payment transaction records processed via PhonePe</li>
+                  <li>Payment transaction records processed via Cashfree</li>
                   <li>We do <strong>not</strong> store your UPI PIN, bank account, or card details</li>
-                  <li>All payment processing is handled by PhonePe under their privacy policy</li>
+                  <li>All payment processing is handled by Cashfree under their privacy policy</li>
                 </ul>
                 <h3>Technical Data</h3>
                 <ul>
@@ -74,7 +74,7 @@ const PrivacyPolicy = () => {
                 <ul>
                   <li><strong>Service Fulfillment:</strong> Connecting you with nearby service providers and tracking assistance in real time</li>
                   <li><strong>Account Management:</strong> Creating and maintaining your user account</li>
-                  <li><strong>Payment Processing:</strong> Facilitating secure payments through PhonePe</li>
+                  <li><strong>Payment Processing:</strong> Facilitating secure payments through Cashfree</li>
                   <li><strong>Safety Verification:</strong> Background checks on service providers</li>
                   <li><strong>Customer Support:</strong> Responding to inquiries and resolving disputes</li>
                   <li><strong>Service Improvement:</strong> Analyzing usage patterns to improve our platform</li>
@@ -87,7 +87,7 @@ const PrivacyPolicy = () => {
                 <p>We share your data only in limited circumstances:</p>
                 <ul>
                   <li><strong>Service Providers:</strong> Your name, phone, and location are shared with the assigned service professional to fulfill your request</li>
-                  <li><strong>PhonePe:</strong> Transaction data is shared with PhonePe for payment processing</li>
+                  <li><strong>Cashfree:</strong> Transaction data is shared with Cashfree for payment processing</li>
                   <li><strong>Legal Authorities:</strong> When required by law, court order, or government regulation</li>
                   <li><strong>Business Partners:</strong> Only with your explicit consent</li>
                 </ul>

@@ -59,11 +59,11 @@ const Login = () => {
           </h2>
           <p className={styles.auth__leftText}>
             Get roadside assistance, towing, and emergency repairs instantly.
-            Payments secured via PhonePe.
+            Payments secured via Cashfree.
           </p>
           <div className={styles.auth__features}>
             <div className={styles.auth__feature}>✅ Verified Professionals</div>
-            <div className={styles.auth__feature}>🔒 PhonePe Secured Payments</div>
+            <div className={styles.auth__feature}>🔒 Cashfree Secured Payments</div>
             <div className={styles.auth__feature}>📍 Real-time Tracking</div>
             <div className={styles.auth__feature}>⚡ Under 15-min Response</div>
           </div>
@@ -130,7 +130,7 @@ const Login = () => {
           </p>
 
           <div className={styles.auth__divider}><span>Secured by</span></div>
-          <div className={styles.auth__phonepeBadge}>💜 PhonePe Payment Gateway</div>
+          <div className={styles.auth__phonepeBadge}>💳 Cashfree Payment Gateway</div>
         </div>
       </div>
     </div>

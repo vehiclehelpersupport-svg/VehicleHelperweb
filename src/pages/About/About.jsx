@@ -25,7 +25,7 @@ const About = () => {
           </h1>
           <p className={styles.about__subtitle}>
             Vehicle Helper connects distressed drivers with verified roadside assistance
-            professionals in minutes. Powered by PhonePe for safe, transparent payments.
+            professionals in minutes. Powered by Cashfree for safe, transparent payments.
           </p>
         </div>
       </section>
@@ -85,21 +85,21 @@ const About = () => {
         </div>
       </section>
 
-      {/* PhonePe Section */}
+      {/* Cashfree Section */}
       <section className={styles.about__payment}>
         <div className="container">
           <div className={styles.about__paymentCard}>
-            <div className={styles.about__paymentIcon}>💜</div>
+            <div className={styles.about__paymentIcon}>💳</div>
             <h2 className={styles.about__paymentTitle}>
-              Payments Secured by PhonePe
+              Payments Secured by Cashfree
             </h2>
             <p className={styles.about__paymentText}>
-              Vehicle Helper integrates with PhonePe — India&apos;s leading UPI payment gateway —
+              Vehicle Helper integrates with Cashfree — a trusted payment gateway in India —
               to ensure every transaction is 100% secure, verified, and transparent. You only
               pay after service is completed to your satisfaction.
             </p>
             <div className={styles.about__paymentFeatures}>
-              <span>✅ UPI Payments</span>
+              <span>✅ UPI & Cards</span>
               <span>✅ Instant Confirmation</span>
               <span>✅ Refund Protected</span>
               <span>✅ RBI Compliant</span>

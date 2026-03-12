@@ -77,7 +77,7 @@ Frontend runs at `http://localhost:5173`.
 
 ## Address for Individual / PAN
 
-For PhonePe verification as an individual:
+For Cashfree verification as an individual:
 
 - Use the **address from your PAN card** (residential address)
 - No business address is required

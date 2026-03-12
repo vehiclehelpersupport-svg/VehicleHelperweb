@@ -27,7 +27,7 @@ const steps = [
     icon: '💳',
     title: 'Pay Securely',
     description:
-      'Pay only after service completion using PhonePe — the most trusted payment gateway in India.',
+      'Pay only after service completion using Cashfree — a trusted payment gateway in India.',
   },
 ];
 

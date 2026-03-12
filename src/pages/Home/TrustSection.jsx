@@ -15,7 +15,7 @@ const TrustSection = () => {
         <div className={styles.trust__grid}>
           {[
             { icon: '🚀', title: 'Fast Response', desc: 'We connect you to the nearest available professional quickly.' },
-            { icon: '💜', title: 'PhonePe Payments', desc: 'Pay only after service is done. Fully secured via PhonePe.' },
+            { icon: '💳', title: 'Cashfree Payments', desc: 'Pay only after service is done. Fully secured via Cashfree.' },
             { icon: '🔒', title: 'Safe & Verified', desc: 'Service professionals are verified before they are listed.' },
           ].map((item) => (
             <div key={item.title} className={styles.trust__card}>
@@ -29,8 +29,8 @@ const TrustSection = () => {
         <div className={styles.trust__partners}>
           <p className={styles.trust__partnersLabel}>Payment Partner</p>
           <div className={styles.trust__phonepe}>
-            <span className={styles.trust__phonepeIcon}>💜</span>
-            <span>PhonePe</span>
+            <span className={styles.trust__phonepeIcon}>💳</span>
+            <span>Cashfree</span>
             <span className={styles.trust__phonepeBadge}>Verified Gateway</span>
           </div>
         </div>

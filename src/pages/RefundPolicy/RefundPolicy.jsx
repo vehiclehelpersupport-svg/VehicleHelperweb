@@ -33,8 +33,8 @@ const RefundPolicy = () => {
               <div className={styles.legal__intro}>
                 <p>
                   Vehicle Helper is committed to transparent and fair refund practices. All payments
-                  are processed via <strong>PhonePe</strong> and are subject to this Refund Policy
-                  and PhonePe&apos;s own terms.
+                  are processed via <strong>Cashfree</strong> and are subject to this Refund Policy
+                  and Cashfree&apos;s own terms.
                 </p>
               </div>
 
@@ -89,7 +89,7 @@ const RefundPolicy = () => {
                 </ul>
                 <p>
                   In all these cases, any charged amount will be refunded within 5–7 business days
-                  to your original payment source via PhonePe.
+                  to your original payment source via Cashfree.
                 </p>
               </section>
 
@@ -139,9 +139,9 @@ const RefundPolicy = () => {
                 <h2>6. Refund Timelines</h2>
                 <ul>
                   <li><strong>Approved refunds</strong> are processed within 3–5 business days</li>
-                  <li><strong>PhonePe wallet refunds</strong> are credited instantly upon approval</li>
+                  <li><strong>Cashfree wallet refunds</strong> are credited as per Cashfree&apos;s processing time</li>
                   <li><strong>Bank account/UPI refunds</strong> may take 5–7 business days depending on your bank</li>
-                  <li>Refund disputes escalated to PhonePe follow their 14-day resolution policy</li>
+                  <li>Refund disputes escalated to Cashfree follow their resolution policy</li>
                 </ul>
               </section>
 
@@ -152,7 +152,7 @@ const RefundPolicy = () => {
                 </p>
                 <ul>
                   <li>Vehicle Helper Escalation Team: <a href="mailto:hello@muthura.in">hello@muthura.in</a></li>
-                  <li>PhonePe Dispute Resolution (for payment-related issues)</li>
+                  <li>Cashfree Dispute Resolution (for payment-related issues)</li>
                   <li>National Consumer Helpline: 1800-11-4000 (India)</li>
                 </ul>
                 <p>

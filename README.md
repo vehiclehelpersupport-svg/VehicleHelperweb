@@ -1,7 +1,7 @@
 # 🚗 Vehicle Helper
 
 > India's most trusted 24/7 roadside assistance and vehicle emergency services platform.
-> Payments secured by **PhonePe**.
+> Payments secured by **Cashfree**.
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat&logo=vite)
@@ -14,7 +14,7 @@
 
 - **24/7 Roadside Assistance** — towing, emergency repair, battery jump start, nearby mechanic
 - **3-step service wizard** — select service → fill details → confirmed with ETA
-- **PhonePe payment integration** — secure, post-service payments
+- **Cashfree payment integration** — secure, post-service payments
 - **Real-time tracking UI** — live helper location card on hero section
 - **Full authentication UI** — Login & Register pages with form validation
 - **Legal compliance** — Privacy Policy, Terms & Conditions, Refund Policy
@@ -28,7 +28,7 @@
 | Route | Page |
 |---|---|
 | `/` | Home — Hero, Services, How It Works, Testimonials, CTA |
-| `/about` | About — Mission, Stats, Values, PhonePe section |
+| `/about` | About — Mission, Stats, Values, Cashfree section |
 | `/contact` | Contact — Form with validation + emergency panel |
 | `/login` | Login — Split-panel with feature sidebar |
 | `/register` | Register — Full form with T&C checkbox |
@@ -122,13 +122,13 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 💳 PhonePe Payment Gateway
+## 💳 Cashfree Payment Gateway
 
-This project is built for **PhonePe payment gateway verification**. The platform demonstrates:
+This project uses **Cashfree payment gateway**. The platform demonstrates:
 
 - Secure post-service payment flow (no advance charges)
-- PhonePe branding on auth pages, service wizard, and footer
-- Refund policy aligned with PhonePe dispute resolution
+- Cashfree branding on auth pages, service wizard, and footer
+- Refund policy aligned with Cashfree dispute resolution
 - RBI-compliant payment messaging
 
 ---

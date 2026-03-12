@@ -102,7 +102,7 @@ const TermsAndConditions = () => {
               <section id="payments" className={styles.legal__section}>
                 <h2>5. Payments</h2>
                 <p>
-                  All payments on Vehicle Helper are processed through PhonePe, a licensed payment
+                  All payments on Vehicle Helper are processed through Cashfree, a licensed payment
                   aggregator regulated by the Reserve Bank of India (RBI).
                 </p>
                 <ul>

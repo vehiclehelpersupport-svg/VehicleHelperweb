@@ -74,7 +74,7 @@ const Footer = () => {
             </ul>
             <div className={styles.footer__paymentBadge}>
               <span>Payments secured by</span>
-              <span className={styles.footer__phonepe}>PhonePe</span>
+              <span className={styles.footer__phonepe}>Cashfree</span>
             </div>
           </div>
         </div>

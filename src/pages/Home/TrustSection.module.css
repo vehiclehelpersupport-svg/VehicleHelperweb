@@ -102,7 +102,7 @@
   padding: 0.75rem 1.5rem;
   font-size: 1.1rem;
   font-weight: 800;
-  color: #5F259F;
+  color: #0C2451;
   box-shadow: var(--shadow-md);
 }
 
@@ -113,11 +113,11 @@
 .trust__phonepeBadge {
   font-size: 0.75rem;
   font-weight: 600;
-  background: rgba(95, 37, 159, 0.1);
-  color: #5F259F;
+  background: rgba(12, 36, 81, 0.1);
+  color: #0C2451;
   padding: 0.25rem 0.6rem;
   border-radius: var(--radius-full);
-  border: 1px solid rgba(95, 37, 159, 0.2);
+  border: 1px solid rgba(12, 36, 81, 0.2);
 }
 
 @media (max-width: 900px) {

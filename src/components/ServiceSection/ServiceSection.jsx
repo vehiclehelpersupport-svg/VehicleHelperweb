@@ -51,7 +51,7 @@ const ServiceSection = () => {
           </h2>
           <p className={styles.services__subtitle}>
             From emergency roadside assistance to routine mechanic referrals —
-            every service is available 24/7 with secure PhonePe payments.
+            every service is available 24/7 with secure Cashfree payments.
           </p>
         </div>
 

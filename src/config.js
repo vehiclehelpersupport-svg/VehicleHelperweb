@@ -1,6 +1,6 @@
 /**
  * Site-wide config — update these for your individual/sole proprietor details.
- * For PhonePe verification: use the address as per your PAN card.
+ * For Cashfree verification: use the address as per your PAN card.
  */
 export const siteConfig = {
   // Your address as per PAN card (required for individual account)
@@ -17,6 +17,6 @@ export const siteConfig = {
   // Your story — edit to match your real journey
   story: {
     paragraph1: 'Vehicle Helper was started to help drivers who get stranded on the road with no help in sight. We connect drivers in need with skilled professionals nearby.',
-    paragraph2: 'We are growing our network to serve more areas. Every transaction is processed securely via PhonePe, ensuring complete payment transparency.',
+    paragraph2: 'We are growing our network to serve more areas. Every transaction is processed securely via Cashfree, ensuring complete payment transparency.',
   },
 };
