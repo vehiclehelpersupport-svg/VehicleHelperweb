@@ -68,6 +68,13 @@
   color: var(--text-primary);
 }
 
+.card__price {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+  margin-top: -0.35rem;
+}
+
 .card__desc {
   font-size: 0.95rem;
   color: var(--text-secondary);

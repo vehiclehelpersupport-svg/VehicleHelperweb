@@ -60,7 +60,7 @@ const Register = () => {
   };
 
   const fields = [
-    { id: 'name', name: 'name', type: 'text', label: 'Full Name', placeholder: 'Rahul Sharma', icon: <FiUser /> },
+    { id: 'name', name: 'name', type: 'text', label: 'Full Name', placeholder: 'Muthu Anushya', icon: <FiUser /> },
     { id: 'email', name: 'email', type: 'email', label: 'Email Address', placeholder: 'rahul@example.com', icon: <FiMail /> },
     { id: 'phone', name: 'phone', type: 'tel', label: 'Mobile Number', placeholder: '9047754194', icon: <FiPhone /> },
   ];

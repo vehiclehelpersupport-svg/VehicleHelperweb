@@ -93,6 +93,7 @@ const Contact = () => {
                   Stranded on the road? Don&apos;t use the form — call us directly or use our
                   Request Service feature for immediate help.
                 </p>
+                <p>Muthu Anushya M</p>
                 <a href="tel:+919047754194" className={styles.contact__emergencyPhone}>
                   📞 +91 90477 54194
                 </a>
@@ -106,6 +107,7 @@ const Contact = () => {
                 </p>
                 <div className={styles.contact__grievanceDetails}>
                   <p><strong>Vehicle Helper</strong> (Individual / Sole Proprietor)</p>
+                  <p>Muthu Anushya M</p>
                   <p>📧 <a href="mailto:hello@muthura.in">hello@muthura.in</a></p>
                   <p>📞 <a href="tel:+919047754194">+91 90477 54194</a></p>
                   <p>⏱ Response within <strong>48 business hours</strong></p>

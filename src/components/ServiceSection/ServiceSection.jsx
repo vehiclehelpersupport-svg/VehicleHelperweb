@@ -4,39 +4,45 @@ import styles from './ServiceSection.module.css';
 const services = [
   {
     icon: '🚨',
-    title: 'Roadside Assistance',
+    title: 'Battery Jump Start',
+    price: 'Starting at Rs. 199',
     description:
-      'Stuck on the road? Our certified professionals reach you within minutes. Flat tires, fuel delivery, or any emergency — we have got you covered.',
+      'Quick dead-battery rescue by verified professionals at your location.',
+  },
+  {
+    icon: '🛞',
+    title: 'Puncture Repair',
+    price: 'Starting at Rs. 149',
+    description:
+      'On-road puncture support to get you moving safely without towing.',
+  },
+  {
+    icon: '⛽',
+    title: 'Fuel Delivery',
+    price: 'Starting at Rs. 99 + fuel cost',
+    description:
+      'Fast emergency fuel drop with transparent billing for fuel quantity.',
+  },
+  {
+    icon: '🚨',
+    title: 'Breakdown Help',
+    price: 'Starting at Rs. 249',
+    description:
+      'Immediate emergency assistance for sudden roadside breakdowns.',
+  },
+  {
+    icon: '🔧',
+    title: 'Mechanic Visit',
+    price: 'Starting at Rs. 199',
+    description:
+      'Professional inspection and issue diagnosis at your current location.',
   },
   {
     icon: '🚛',
     title: 'Vehicle Towing',
+    price: 'Starting at Rs. 499',
     description:
-      'Safe and reliable towing service for all vehicle types. From motorcycles to heavy-duty trucks, we transport your vehicle with care.',
-  },
-  {
-    icon: '🔧',
-    title: 'Emergency Repair',
-    description:
-      'On-the-spot engine diagnostics and repairs by our trained mechanics. Get back on the road without waiting for a tow.',
-  },
-  {
-    icon: '📍',
-    title: 'Nearby Mechanic Help',
-    description:
-      'Find verified, top-rated mechanics near you instantly. Compare ratings, prices, and availability before booking.',
-  },
-  {
-    icon: '🔋',
-    title: 'Battery Jump Start',
-    description:
-      'Dead battery? Our technicians arrive with professional jump-start equipment to get your vehicle running in no time.',
-  },
-  {
-    icon: '🛡️',
-    title: 'Insurance Assistance',
-    description:
-      'Need help with insurance claims after an accident? Our support team guides you through the entire process seamlessly.',
+      'Includes base 3 km towing, then fixed per-km charges for extra distance.',
   },
 ];
 
@@ -50,8 +56,8 @@ const ServiceSection = () => {
             Complete Vehicle Help <span className={styles.services__titleAccent}>Services</span>
           </h2>
           <p className={styles.services__subtitle}>
-            From emergency roadside assistance to routine mechanic referrals —
-            every service is available 24/7 with secure Cashfree payments.
+            Services starting from Rs. 149 with no hidden charges. First 2 km is free, then
+            a simple fixed per-km fee.
           </p>
         </div>
 
