@@ -123,6 +123,10 @@ const PrivacyPolicy = () => {
                   <li><strong>Objection:</strong> Opt out of certain data processing activities</li>
                 </ul>
                 <p>To exercise these rights, contact us at <a href="mailto:hello@muthura.in">hello@muthura.in</a></p>
+                <p>
+                  To request account deletion, visit{' '}
+                  <a href="https://roadsidefix.muthura.in/delete-account">https://roadsidefix.muthura.in/delete-account</a>.
+                </p>
               </section>
 
               <section id="cookies" className={styles.legal__section}>

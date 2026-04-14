@@ -8,6 +8,7 @@ import Register from '../pages/Register/Register';
 import RequestService from '../pages/RequestService/RequestService';
 import Pricing from '../pages/Pricing/Pricing';
 import PrivacyPolicy from '../pages/PrivacyPolicy/PrivacyPolicy';
+import DeleteAccount from '../pages/DeleteAccount/DeleteAccount';
 import TermsAndConditions from '../pages/TermsAndConditions/TermsAndConditions';
 import RefundPolicy from '../pages/RefundPolicy/RefundPolicy';
 
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: 'pricing', element: <Pricing /> },
       { path: 'request-service', element: <RequestService /> },
       { path: 'privacy-policy', element: <PrivacyPolicy /> },
+      { path: 'delete-account', element: <DeleteAccount /> },
       { path: 'terms-and-conditions', element: <TermsAndConditions /> },
       { path: 'refund-policy', element: <RefundPolicy /> },
     ],
