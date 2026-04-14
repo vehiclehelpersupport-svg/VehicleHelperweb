@@ -85,6 +85,12 @@ const PrivacyPolicy = () => {
               <section id="sharing" className={styles.legal__section}>
                 <h2>3. Data Sharing</h2>
                 <p>We share your data only in limited circumstances:</p>
+                <p>
+                  We use trusted third-party service providers including Firebase (Google) for
+                  authentication, database and file storage, OneSignal for push notifications,
+                  Google Maps Platform for location and map services, and Cashfree for payment
+                  processing.
+                </p>
                 <ul>
                   <li><strong>Service Providers:</strong> Your name, phone, and location are shared with the assigned service professional to fulfill your request</li>
                   <li><strong>Cashfree:</strong> Transaction data is shared with Cashfree for payment processing</li>
